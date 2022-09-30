@@ -1,0 +1,96 @@
+.App {
+  height: 100vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.makeagif.com/media/5-27-2016/Bi25aq.gif");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-color: #cccccc;
+  height: 17vh;
+}
+
+.title {
+  width: 600px;
+  height:100%;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.227);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(148, 148, 148, 0.703), rgba(255,0,0,0));
+  /* background-color:rgba(128, 128, 128, 0.116); */
+}
+
+.title h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  letter-spacing: .2rem;
+}
+
+.title h5 {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+body {
+  font-family: 'Francois One', sans-serif;
+  text-shadow: 2px 2px rgba(100, 100, 100, 0.794);
+  display: grid;
+  text-align: center;
+  height: 70vh;
+}
+
+.main {
+  background: url("../MEDIA/SMWhauntedBCKGRND.jpeg") repeat;
+  /* background-size: cover; */
+  /* width: ;
+  height: ; */
+}
+
+.video-parent {
+  /* height: 100vh; */
+}
+
+.videos {
+}
+
+.aerial {
+  text-align: center;
+}
+
+.aerial-videos {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.drums {
+  text-align: center;
+}
+
+.drum-videos {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.main-bottom {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .806), rgba(0,0,0));
+  color:#cccccc00;
+}
+
+.footer-parent {
+  height:13vh;
+  background-image: url("https://c.tenor.com/DiZ6wOY9jJwAAAAC/super-mario-world-boo.gif");
+  background-repeat: repeat;
+}
+
+.footer {
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.806), rgba(255,0,0,0));
+  color:#cccccc00;
+}
